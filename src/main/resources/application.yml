@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 7070
 
 gemini:
   api-url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
