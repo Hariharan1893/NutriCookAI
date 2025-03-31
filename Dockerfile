@@ -1,14 +1,12 @@
-# Use OpenJDK 21 as the base image
-FROM openjdk:21-jdk
-
-# Set the working directory inside the container
+# Step 1: Build Stage
+FROM maven:3.9.0-eclipse-temurin-21 as build
 WORKDIR /app
+COPY . .
+RUN mvn clean package -DskipTests
 
-# Add the built JAR file into the container
-ADD target/NutriCookAI-0.0.1-SNAPSHOT.jar app.jar
-
-# Expose the application port
+# Step 2: Run Stage
+FROM eclipse-temurin:21-jdk
+WORKDIR /app
+COPY --from=build /app/target/NutriCookAI-0.0.1-SNAPSHOT.jar app.jar
 EXPOSE 7070
-
-# Run the Spring Boot application
-ENTRYPOINT ["java", "-jar", "app.jar"]
+CMD ["java", "-jar", "app.jar"]
