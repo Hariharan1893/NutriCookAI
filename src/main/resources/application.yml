@@ -1,0 +1,7 @@
+server:
+  port: 8080
+
+gemini:
+  api-url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
+  api-key: "AIzaSyC9LTbD7XUx_6r2dzZIQs50gdCU42sstKs"
+

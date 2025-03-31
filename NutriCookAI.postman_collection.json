@@ -1,0 +1,52 @@
+[
+  {
+    "ingredients": ["chicken", "garlic", "tomato", "onion"],
+    "cuisine": "Indian",
+    "diet": "Keto"
+  },
+  {
+    "ingredients": ["pasta", "tomato", "garlic", "olive oil", "parmesan"],
+    "cuisine": "Italian",
+    "diet": "Vegetarian"
+  },
+  {
+    "ingredients": ["eggs", "spinach", "cheese", "milk"],
+    "cuisine": "American",
+    "diet": "High-Protein"
+  },
+  {
+    "ingredients": ["tofu", "bell pepper", "soy sauce", "ginger", "garlic"],
+    "cuisine": "Asian",
+    "diet": "Vegan"
+  },
+  {
+    "ingredients": ["salmon", "lemon", "garlic", "butter"],
+    "cuisine": "Mediterranean",
+    "diet": "Pescatarian"
+  },
+  {
+    "ingredients": ["quinoa", "black beans", "corn", "avocado"],
+    "cuisine": "Mexican",
+    "diet": "Gluten-Free"
+  },
+  {
+    "ingredients": ["mushroom", "onion", "soy sauce", "rice"],
+    "cuisine": "Chinese",
+    "diet": "Vegan"
+  },
+  {
+    "ingredients": ["chickpeas", "cucumber", "olive oil", "lemon"],
+    "cuisine": "Middle Eastern",
+    "diet": "Mediterranean"
+  },
+  {
+    "ingredients": ["lentils", "carrots", "cumin", "onion"],
+    "cuisine": "Indian",
+    "diet": "Vegetarian"
+  },
+  {
+    "ingredients": ["turkey", "lettuce", "tomato", "mayonnaise"],
+    "cuisine": "American",
+    "diet": "Low-Carb"
+  }
+]
